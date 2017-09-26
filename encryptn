@@ -1,0 +1,17 @@
+def encrypto(text, output=""):
+    for char in text:
+        output="{}{}".format(output, chr(ord(char)+5))
+        return output
+
+
+text=input("Write your text,bitte: ")
+print("Encrypto Text:{}".format(encrypto(text)))
+
+
+def decrypto(text, output=""):
+    for char in text:
+        output="{}{}".format(output, chr(ord(char)-5))
+        return output
+
+text=input("Write for decrypto,bitte: ")
+print("Decrypto Text:{}".format(decrypto(text)))
