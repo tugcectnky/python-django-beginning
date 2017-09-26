@@ -1,0 +1,10 @@
+import random
+
+def create_name():
+    first_names=["Tugce","Toprak","Lorenza","Paola","Julia","Nora"]
+    last_names=["Cetinkaya","Karakaya","Sonzin","Franco","Nedek","Kutleshi"]
+
+    return "{} {}".format(random.choice(first_names),random.choice(last_names))
+
+for i in range(5):
+    print(create_name())
