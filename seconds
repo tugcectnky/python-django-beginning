@@ -1,0 +1,7 @@
+
+from datetime import *
+
+birthdate=datetime.strptime(input("Your birth date is (/d/m/Y): "),"%d/%M/%Y")
+age=datetime.now()-birthdate
+
+print("You have been in the World for {} seconds.".format(age.total_seconds()))
