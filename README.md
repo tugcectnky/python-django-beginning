@@ -1,2 +1,2 @@
 # python-django-beginning
-First depository.
+First repository.
